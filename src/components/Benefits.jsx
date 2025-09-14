@@ -10,7 +10,7 @@ const Benefits = () => {
           Connecting You to a World of Benefits.
         </p>
         <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-gray-900">
-          Benefits of Anonet
+          Benefits of Annonet
         </h2>
       </div>
 
@@ -18,7 +18,7 @@ const Benefits = () => {
       <div className="max-w-7xl mx-auto flex justify-center px-6">
         <motion.img
           src="/benefits.png"
-          alt="Benefits of Anonet"
+          alt="Benefits of Annonet"
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
