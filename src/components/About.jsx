@@ -91,13 +91,14 @@ const WhyChooseUs = () => {
         </div>
 
         {/* CTA button */}
-        <motion.button
+        <motion.a
+          href="#booking"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="mt-10 bg-red-500 hover:bg-red-600 text-white text-lg font-semibold px-8 py-3 rounded-lg shadow-lg transition"
+          className="mt-10 inline-block bg-red-500 hover:bg-red-600 text-white text-lg font-semibold px-8 py-3 rounded-lg shadow-lg transition"
         >
           Get Started
-        </motion.button>
+        </motion.a>
       </div>
     </section>
   );

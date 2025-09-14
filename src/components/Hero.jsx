@@ -50,7 +50,7 @@ const Hero = () => {
           WiFi Solutions.
         </p>
         <a
-          href="#contact"
+          href="#booking"
           className="relative inline-block text-xl font-semibold text-white px-6 py-3 rounded-full transition-all duration-300 ease-in-out bg-gradient-to-r from-[#2D336B] to-[#3B5998] shadow-md hover:from-[#4A6FD6] hover:to-[#1A3E8D] hover:shadow-xl hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300"
         >
           <span className="relative z-10">Book a Service</span>

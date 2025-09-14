@@ -103,7 +103,10 @@ const cardVariants = {
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="py-16 bg-gradient-to-br from-gray-50 via-white to-gray-100 relative">
+    <section
+      id="services"
+      className="py-16 bg-gradient-to-br from-gray-50 via-white to-gray-100 relative"
+    >
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -30 }}
@@ -150,23 +153,6 @@ const ServicesSection = () => {
             </ul>
           </motion.div>
         ))}
-      </motion.div>
-
-      {/* Button */}
-      <motion.div
-        initial={{ opacity: 0, scale: 0.8 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.7 }}
-        viewport={{ once: true }}
-        className="flex justify-center mt-12"
-      >
-        <motion.button
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.95 }}
-          className="bg-red-500 hover:bg-red-600 text-white text-lg px-8 py-3 rounded-full shadow-lg font-semibold tracking-wide transition"
-        >
-          Get Started
-        </motion.button>
       </motion.div>
     </section>
   );
