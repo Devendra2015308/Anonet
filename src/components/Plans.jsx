@@ -58,8 +58,49 @@ const Plans = () => {
           OUR EXCITING PLANS!
         </motion.h3>
 
+        <div>
+          {/* 50 Mbps Plan Highlighted */}
+          <motion.h4
+            className="text-3xl font-bold mt-4 text-gray-800"
+            animate={{
+              scale: [1, 1.1, 1],
+              opacity: [1, 0.6, 1],
+              color: ["#1e40af", "#dc2626", "#1e40af"],
+            }}
+            transition={{
+              duration: 1.2,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
+          >
+            50 Mbps Plan - Starting at{" "}
+            <span className="font-extrabold">₹1350 (3 months)</span>
+          </motion.h4>
+
+          {/* 100 Mbps Plan Highlighted */}
+          <motion.h4
+            className="text-3xl font-bold mt-4 text-gray-800"
+            animate={{
+              scale: [1, 1.1, 1],
+              opacity: [1, 0.6, 1],
+              color: ["#047857", "#dc2626", "#047857"], // teal & red
+            }}
+            transition={{
+              duration: 1.2,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
+          >
+            100 Mbps Plan - Just{" "}
+            <span className="font-extrabold">₹333 / Month</span>
+          </motion.h4>
+          <span className="text-[20px] text-gray-500">
+            Price Including of GST
+          </span>
+        </div>
+
         {/* Grid of plan images */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-8">
           {plans.map((plan, i) => (
             <motion.div
               key={i}
@@ -79,27 +120,6 @@ const Plans = () => {
               />
             </motion.div>
           ))}
-        </div>
-
-        <div>
-          {/* 50 Mbps Plan Highlighted */}
-          <motion.h4
-            className="text-3xl font-bold mt-12"
-            animate={{
-              scale: [1, 1.1, 1],
-              opacity: [1, 0.6, 1],
-              color: ["#1e40af", "#dc2626", "#1e40af"],
-            }}
-            transition={{
-              duration: 1.2,
-              repeat: Infinity,
-              ease: "easeInOut",
-            }}
-          >
-            50 Mbps Plan - Starting at{" "}
-            <span className="font-extrabold">₹1350 (3 months)</span>
-          </motion.h4>
-          <span className="text-[20px] text-gray-500">Price Including of GST</span>
         </div>
 
         {/* Note */}
