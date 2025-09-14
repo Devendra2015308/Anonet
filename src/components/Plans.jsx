@@ -92,7 +92,7 @@ const Plans = () => {
             }}
           >
             100 Mbps Plan - Just{" "}
-            <span className="font-extrabold">₹333 Per Month</span>
+            <span className="font-extrabold">₹333 Per Month*</span>
           </motion.h4>
           <span className="text-[20px] text-gray-500">
             Price Including of GST
