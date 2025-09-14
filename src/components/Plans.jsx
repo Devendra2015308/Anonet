@@ -8,7 +8,7 @@ const plans = [
   },
   {
     title: "Standard Plan",
-    image: "/Plans/offer2.png",
+    image: "/Plans/plan2.png",
     highlighted: true,
   },
   {
@@ -79,6 +79,27 @@ const Plans = () => {
               />
             </motion.div>
           ))}
+        </div>
+
+        <div>
+          {/* 50 Mbps Plan Highlighted */}
+          <motion.h4
+            className="text-3xl font-bold mt-12"
+            animate={{
+              scale: [1, 1.1, 1],
+              opacity: [1, 0.6, 1],
+              color: ["#1e40af", "#dc2626", "#1e40af"],
+            }}
+            transition={{
+              duration: 1.2,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
+          >
+            50 Mbps Plan - Starting at{" "}
+            <span className="font-extrabold">₹1350 (3 months)</span>
+          </motion.h4>
+          <span className="text-[20px] text-gray-500">Price Including of GST</span>
         </div>
 
         {/* Note */}
