@@ -29,7 +29,11 @@ const Navbar = () => {
       <div className="bg-white px-4 py-3 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-center md:text-left">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <img src="/logo.jpg" alt="Logo" className="h-12 w-12 rounded-full" />
+          <img
+            src="/logo.png"
+            alt="Logo"
+            className="h-14 w-14 rounded-full outline-1 outline-gray-400"
+          />
           <div>
             <h1 className="text-xl font-bold text-[#2D336B]">ANNONET </h1>
             <p className="text-sm text-gray-600">WIFI NET PROVIDER</p>
@@ -41,9 +45,9 @@ const Navbar = () => {
           <div>
             <p className="text-md text-gray-500">📌 Visit Us</p>
             <p className="font-medium text-[#2D336B] text-sm break-words">
-              E-20, Street No. 9, Shashi Garden
+              D-65, Gali No. 6, Laxmi Nagar,
               <br />
-              Mayur Vihar Phase-1, East Delhi, 110091
+              East Delhi, 110092
             </p>
           </div>
         </div>
@@ -65,17 +69,20 @@ const Navbar = () => {
             <a href="#" className="hover:underline">
               Home
             </a>
-            <a href="#about" className="hover:underline">
-              About Us
+            <a href="#plans" className="hover:underline">
+              Plans
             </a>
             <a href="#services" className="hover:underline">
               Services
             </a>
+            <a href="#booking" className="hover:underline">
+              Booking
+            </a>
             <a href="#contact" className="hover:underline">
               Contact Us
             </a>
-            <a href="#brands" className="hover:underline">
-              Brands
+            <a href="#why-choose-us" className="hover:underline">
+              Benfits
             </a>
           </div>
 

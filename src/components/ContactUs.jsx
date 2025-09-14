@@ -45,9 +45,7 @@ const ContactUs = () => {
                 Office Address
               </h3>
               <p className="text-gray-600">
-                E-20, Street No. 9, Shashi Garden
-                <br />
-                Mayur Vihar Phase-1, East Delhi, 110091
+                D-65, Gali No. 6, Laxmi Nagar,
                 <br />
                 East Delhi, India - 110091
               </p>
@@ -81,12 +79,13 @@ const ContactUs = () => {
             custom={2}
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1750.7418368431975!2d77.35475818872222!3d28.645233043914455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1750010223280!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.2385486468777!2d77.27904987549473!3d28.66204947566139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfbebb0caef29%3A0x74a2dd5529858f62!2sGali%20No.%206%2C%20Delhi!5e0!3m2!1sen!2sin!4v1726322170432!5m2!1sen!2sin"
               width="100%"
               height="100%"
-              // allowfullscreen
+              style={{ border: 0 }}
+              allowFullScreen=""
               loading="lazy"
-              // referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             />
           </motion.div>
         </div>

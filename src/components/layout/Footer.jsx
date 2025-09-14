@@ -10,7 +10,7 @@ const Footer = () => {
           <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
             <div className="flex items-center space-x-4 mb-4">
               <img
-                src="/logo.jpg"
+                src="/logo.png"
                 alt="Logo"
                 className="h-14 w-14 rounded-full"
               />
@@ -68,11 +68,9 @@ const Footer = () => {
             <h4 className="text-xl font-semibold mb-4">Contact Us</h4>
             <address className="not-italic text-gray-400 text-md leading-relaxed space-y-2">
               <p>
-                E-20, Street No. 9, Shashi Garden
+                D-65, Gali No. 6, Laxmi Nagar,
                 <br />
-                Mayur Vihar Phase-1
-                <br />
-                East Delhi, India - 110091
+                East Delhi, India - 110092
               </p>
               <p>
                 Phone:{" "}

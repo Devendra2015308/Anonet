@@ -103,7 +103,7 @@ const cardVariants = {
 
 const ServicesSection = () => {
   return (
-    <section className="py-16 bg-gradient-to-br from-gray-50 via-white to-gray-100 relative">
+    <section id="services" className="py-16 bg-gradient-to-br from-gray-50 via-white to-gray-100 relative">
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -30 }}

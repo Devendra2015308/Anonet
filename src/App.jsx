@@ -9,6 +9,7 @@ import FloatingCallButton from "./components/layout/Mobile";
 import Plans from "./components/Plans";
 import ServicesSection from "./components/OurServices";
 import Benefits from "./components/Benefits";
+import BookingForm from "./components/BookingForm";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Plans />
       <About />
       <ServicesSection />
+      <BookingForm />
       <Benefits />
       <Testimonials />
       <ContactUs />
