@@ -142,7 +142,7 @@ const BookingForm = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               type="submit"
-              className="w-full py-3 px-6 rounded-lg bg-gradient-to-r from-indigo-500 to-cyan-500 text-white font-semibold shadow-lg hover:shadow-indigo-500/50 transition"
+              className="w-full py-3 px-6 rounded-lg bg-gradient-to-r from-indigo-500 to-cyan-500 text-white font-semibold shadow-lg hover:shadow-indigo-500/50 transition cursor-pointer"
             >
               Submit Request
             </motion.button>

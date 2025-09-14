@@ -8,7 +8,7 @@ const plans = [
   },
   {
     title: "Standard Plan",
-    image: "/Plans/plan2.png",
+    image: "/Plans/offer2.png",
     highlighted: true,
   },
   {
