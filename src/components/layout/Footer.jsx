@@ -78,16 +78,16 @@ const Footer = () => {
                   href="tel:+917453947573"
                   className="hover:text-gray-100 transition"
                 >
-                  +91 7053604920
+                  +91 9910766205
                 </a>
               </p>
               <p>
                 Email:{" "}
                 <a
-                  href="mailto:avinashsunil03@gmail.com"
+                  href="mailto:annonetwifiprovider@gmail.com"
                   className="hover:text-gray-100 transition"
                 >
-                  avinashsunil03@gmail.com
+                  annonetwifiprovider@gmail.com
                 </a>
               </p>
             </address>
