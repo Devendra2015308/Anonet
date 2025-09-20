@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import { motion, useAnimation } from "framer-motion";
 
-export default function WhatsAppButton({ phoneNumber = "917053604920" }) {
+export default function WhatsAppButton({ phoneNumber = "919910766205" }) {
   const iconControls = useAnimation();
   const buttonRef = useRef(null);
 
