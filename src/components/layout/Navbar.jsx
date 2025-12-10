@@ -56,7 +56,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-2">
           <div>
             <p className="text-md text-gray-500">📞 Call Now</p>
-            <p className="font-medium text-[#2D336B] text-md">9910766205</p>
+            <p className="font-medium text-[#2D336B] text-md">7053604920</p>
           </div>
         </div>
       </div>
@@ -89,7 +89,7 @@ const Navbar = () => {
           {/* Call Button */}
           <div className="hidden sm:flex items-center space-x-4">
             <a
-              href="tel:9910766205"
+              href="tel:7053604920"
               className="bg-white text-[#2D336B] font-semibold px-4 py-2 rounded hover:bg-gray-100 transition inline-flex items-center space-x-2 text-md"
             >
               <span>Call Now</span>

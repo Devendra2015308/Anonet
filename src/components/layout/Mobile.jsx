@@ -10,7 +10,7 @@ const FloatingCallButton = () => {
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
       <motion.a
-        href="tel:+919910766205"
+        href="tel:+917053604920"
         whileHover={{
           scale: 1.1,
           boxShadow: "0px 0px 12px rgba(59, 130, 246, 0.8)",

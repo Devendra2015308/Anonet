@@ -56,7 +56,7 @@ const ContactUs = () => {
                 <PhoneIcon className="w-6 h-6 text-blue-600" />
                 Contact
               </h3>
-              <p className="text-gray-600">Phone: +91 9910766205</p>
+              <p className="text-gray-600">Phone: +91 7053604920</p>
               <p className="text-gray-600">Email: annonetwifiprovider@gmail.com</p>
             </div>
 

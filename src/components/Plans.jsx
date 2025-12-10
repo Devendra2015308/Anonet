@@ -83,7 +83,7 @@ const Plans = () => {
             animate={{
               scale: [1, 1.1, 1],
               opacity: [1, 0.6, 1],
-              color: ["#047857", "#dc2626", "#047857"], // teal & red
+              color: ["#047857", "#dc2626", "#047857"],
             }}
             transition={{
               duration: 1.2,

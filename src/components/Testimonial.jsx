@@ -13,7 +13,7 @@ const testimonials = [
     text: "“We are a holistic wellness center dedicated to helping you discover health and rediscover vitality.”",
   },
   {
-    name: "Sunil Dey",
+    name: "Aditya Sharma",
     role: "Society Maintenance Head",
     text: "“We are using ANONET Broadband service from last 2 years, we are very satisfied.”",
   },
